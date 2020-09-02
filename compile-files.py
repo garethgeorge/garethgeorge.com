@@ -21,7 +21,7 @@ fs.mkdirSync("/home/user");
         relfilepath = os.path.relpath(file, "./files/")
 
         if os.path.isdir(file):
-            f.write("""fs.mkdirSync("/home/user/%s")""" % relfilepath)
+            f.write("""fs.mkdirSync("/home/user/%s");\n""" % relfilepath)
         elif os.path.isfile(file):
             with open(os.path.join(dir, file), "r") as content:
                 f.write("""fs.writeFileSync("/home/user/%s", `%s`);\n""" %
