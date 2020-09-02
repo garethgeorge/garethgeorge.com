@@ -43,7 +43,7 @@ const defaultCommands = {
 
     const printEntry = (ent) => {
       let name = ent.isDirectory() ? ent.name + "/" : ent.name; 
-      ostream.write(ent.name + "\r\n");
+      ostream.write(name + "\r\n");
     }
 
     ostream.write("./\r\n../\r\n");
