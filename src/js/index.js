@@ -5,7 +5,6 @@ import WebShell from "./webshell";
 // import catMe from "cat-me";
 import { say } from 'cowsay-browser';
 import quotes from "./quotes";
-import c from "ansi-colors";
 
 import "xterm/css/xterm.css"
 import "./main.css"
