@@ -8,7 +8,7 @@ jobs:
     - id: checkout
       uses: actions/checkout@v2
     - id: build_vfs_pack
-      run: python3 compile-files.py 
+      run: python3 -m pip install -r requriements.txt && python3 compile-files.py 
     - id: install_packages
       run: npm install
     - id: build_webpack 

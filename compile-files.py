@@ -4,9 +4,7 @@ from pygments import highlight
 from pygments.lexers import get_lexer_by_name
 from pygments.formatters import Terminal256Formatter
 
-
 dir = os.path.dirname(os.path.realpath(__file__))
-
 
 def addslashes(str):
     return str.replace("\\", "\\\\").replace("$", "\\$").replace("`", "\\`")
