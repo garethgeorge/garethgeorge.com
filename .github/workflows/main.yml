@@ -7,8 +7,10 @@ jobs:
     steps:
     - id: checkout
       uses: actions/checkout@v2
+    - id: build_vfs_pack
+      run: python3 compile-files.py 
     - id: install_packages
-      run: npm install 
+      run: npm install
     - id: build_webpack 
       run: npm run build 
     - id: upload_files
