@@ -1,6 +1,7 @@
 This site serves as a repository for showcasing my fun projects and tools I've built over the years. 
 
 In my spare time I'm a hardware tinkerer, hobby programmer, and rock climber. A few projects I've worked on over the years include
+
  - harmonytv -- a service for watching videos synchronized with your friends 
  - gauchocal -- a chrome extension for automatically copying your course schedule from UCSB's course catelog to your Google Calendar. 
  - earth3 -- an implementation of a minecraft like block based building game in Garry's Mod. https://github.com/thelastpenguin/earth3 
@@ -16,6 +17,7 @@ In my spare time I'm a hardware tinkerer, hobby programmer, and rock climber. A 
 
 
 I've published two papers with a third publication pending:
+
  - 'CSPOT: portable, multi-scale functions-as-a-service for IoT' by Rich Wolski, Chandra Krintz, Fatih Bakir, Gareth George, Wei-Tsung Lin
  - 'Analyzing AWS spot instance pricing' by Gareth George, Rich Wolski, Chandra Krintz, John Brevik
 

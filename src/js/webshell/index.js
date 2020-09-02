@@ -56,7 +56,7 @@ const defaultCommands = {
 
   cat: async function(command, args, ostream) {
     try {
-      const contents = fs.readFileSync(path.join(this.state.cwd, args[0].toLowerCase()), "utf8");
+      const contents = fs.readFileSync(path.join(this.state.cwd, args[0]), "utf8");
       await writeLowBaud(contents.replace(/\r?\n/g, "\r\n"));
       ostream.write("\r\n");
     } catch (e) {

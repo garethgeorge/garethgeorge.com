@@ -23,7 +23,7 @@ const webshell = new WebShell(term);
   table.addRow("LinkedIn", "GitHub")
   table.addRow('https://www.linkedin.com/in/garethgeorge97/', "https://github.com/garethgeorge/");
   term.write(table.toString().replace(/\n/g, "\r\n") + "\r\n");
-
+  
   term.write(webshell.helpText());
 
   while (true) {
