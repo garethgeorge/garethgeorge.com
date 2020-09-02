@@ -5,7 +5,7 @@ dir = os.path.dirname(os.path.realpath(__file__))
 
 
 def addslashes(str):
-    return str.replace("$", "\\$").replace("`", "\\`")
+    return str.replace("\\", "\\\\").replace("$", "\\$").replace("`", "\\`")
 
 
 with open(os.path.join(dir, "./src/files/files.js"), "w") as f:
