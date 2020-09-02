@@ -1,5 +1,10 @@
 body {
   background-color: black;
-  margin-left: 10%;
-  margin-right: 10%;
+}
+
+#terminal {
+  margin-left: 5%;
+  margin-right: 5%;
+  min-width: 50em;
+  height: 100%;
 }

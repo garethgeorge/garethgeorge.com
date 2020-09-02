@@ -10,4 +10,8 @@ term.loadAddon(fitAddon);
 term.loadAddon(localEcho);
 term.loadAddon(new WebLinksAddon());
 term.open(document.getElementById('terminal'));
+
+window.addEventListener("resize", () => {
+  fitAddon.fit();
+});
 fitAddon.fit();

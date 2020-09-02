@@ -17,4 +17,3 @@ jobs:
         credentials: ${{ secrets.gcp_credentials }}
         path: ./dist
         destination: garethgeorge-com
-        gzip: true 
