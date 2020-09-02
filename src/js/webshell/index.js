@@ -4,7 +4,9 @@ import {writeLowBaud} from "../formathelpers";
 import c from "ansi-colors";
 
 // load the filesystem
-import "../../files/index";
+import("../../files/files").then(() => {
+  console.log("LOADED FILESYSTEM");
+});
 
 const defaultCommands = {
   pwd: async function() {

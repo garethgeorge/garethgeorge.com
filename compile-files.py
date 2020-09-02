@@ -8,11 +8,11 @@ def addslashes(str):
     return str.replace("$", "\\$").replace("`", "\\`")
 
 
-with open(os.path.join(dir, "./src/files/index.js"), "w") as f:
+with open(os.path.join(dir, "./src/files/files.js"), "w") as f:
     f.write("""import fs from "memfs";\n""")
     f.write("""
-fs.mkdirSync("/home")
-fs.mkdirSync("/home/user")
+fs.mkdirSync("/home");
+fs.mkdirSync("/home/user");
 """)
 
     for file in glob.glob("./files/**", recursive=True):
@@ -24,5 +24,5 @@ fs.mkdirSync("/home/user")
             f.write("""fs.mkdirSync("/home/user/%s")""" % relfilepath)
         elif os.path.isfile(file):
             with open(os.path.join(dir, file), "r") as content:
-                f.write("""fs.writeFileSync("/home/user/%s", `%s`)""" %
+                f.write("""fs.writeFileSync("/home/user/%s", `%s`);\n""" %
                         (relfilepath, addslashes(content.read())))
