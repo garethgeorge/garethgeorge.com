@@ -1,6 +1,6 @@
 export default [
-  "I think Microsoft named .Net so it wouldn’t show up in a Unix directory listing. (Oktal)",
-  "It’s not a bug – it’s an undocumented feature.",
+  "I think Microsoft named .Net so it wouldn't show up in a Unix directory listing. (Oktal)",
+  "It’s not a bug – it's an undocumented feature.",
   "Always code as if the guy who ends up maintaining your code will be a\n violent psychopath who knows where you live. (Martin Golding)",
   "There are only two kinds of programming languages: those people always\n compain about and those nobody uses. (Bjarne Stroustrup)",
   "In order to understand recursion, one must first understand recursion.",

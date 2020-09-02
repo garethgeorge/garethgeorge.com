@@ -7,6 +7,9 @@ import { say } from 'cowsay-browser';
 import quotes from "./quotes";
 import c from "ansi-colors";
 
+import "xterm/css/xterm.css"
+import "./main.css"
+
 const webshell = new WebShell(term);
 
 (async () => {
