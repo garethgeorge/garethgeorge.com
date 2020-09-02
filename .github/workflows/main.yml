@@ -5,11 +5,11 @@ jobs:
     runs-on: ubuntu-latest
     name: build and deploy to gcp
     steps:
-    - id: install packages
+    - id: install_packages
       run: npm install 
-    - id: build webpack 
+    - id: build_webpack 
       run: npm run build 
-    - id: upload-files
+    - id: upload_files
       uses: GoogleCloudPlatform/github-actions/upload-cloud-storage@master
       with:
         credentials: ${{ secrets.gcp_credentials }}
