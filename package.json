@@ -10,9 +10,11 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "ansi-colors": "^4.1.1",
     "argparse": "^2.0.0",
     "ascii-table": "0.0.9",
     "cat-me": "^1.0.3",
+    "cowsay-browser": "^1.1.8",
     "figlet": "^1.5.0",
     "local-echo": "github:wavesoft/local-echo",
     "memfs": "^3.2.0",

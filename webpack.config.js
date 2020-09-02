@@ -8,11 +8,11 @@ module.exports = {
   },
   plugins: [
     new HtmlWebpackPlugin({
-      template: path.resolve(__dirname, "src/html", "index.html")
+      template: path.resolve(__dirname, "src/html/index.html")
     })
   ],
   optimization: {
-    minimize: false,
+    minimize: true,
     usedExports: true,
   }
 };
