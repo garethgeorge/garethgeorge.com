@@ -31,7 +31,3 @@ export const writeLowBaud = (text, interval = 50, chunkSize = 50) => {
     writerHelper(0);
   });
 }
-
-const prettyPrint = (text) => {
-
-}
